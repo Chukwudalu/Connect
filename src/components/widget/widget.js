@@ -26,6 +26,7 @@ function Widget() {
             {newsArticle('Jeremiah is here to stay', 'Top news - 9099 readers')}
             {newsArticle('Corona virus news update', 'Trending - 5000 readers')}
             {newsArticle('Increase in tech jobs due to COVID-19', 'Top news - 9099 readers')}
+            {newsArticle('Tesla stock rises', 'Top news - 700 readers')}
         </div>
     )
 }

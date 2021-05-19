@@ -58,7 +58,7 @@ function Login() {
                 <input value={name} onChange={(e)=>setName(e.target.value)} placeholder='Full name (required if registering)' type='text' />
                 <input value={profilePic} onChange={(e)=>setProfilePic(e.target.value)} placeholder='Profile Picture URL (optional)' type='text' />
                 <input value={email} onChange={(e)=>setEmail(e.target.value)} placeholder='Email' type='text' />
-                <input value={password} onChange={(e)=>setPassword(e.target.value)} placeholder='Password' type='text' />
+                <input value={password} onChange={(e)=>setPassword(e.target.value)} placeholder='Password' type='password' />
                 <button type='submit' onClick={loginUser}>Sign In</button>
             </form>
 
